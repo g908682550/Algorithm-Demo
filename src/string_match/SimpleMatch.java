@@ -1,4 +1,4 @@
-package violence_match;
+package string_match;
 
 public class SimpleMatch {
     public static int method(String s1,String s2){

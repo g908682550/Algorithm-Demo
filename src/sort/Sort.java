@@ -7,10 +7,9 @@ public class Sort {
         int[] nums={2,3,234,11,54,23,55,0,333,12,32,54,22};
         heapSort(nums);
         int[] temp=new int[nums.length];
-        MergeSort(nums,0,nums.length-1,temp);
+        quickSort(nums,0,nums.length-1);
         System.out.println(Arrays.toString(nums));
     }
-
     /**
      * 快速排序
      * @param nums
