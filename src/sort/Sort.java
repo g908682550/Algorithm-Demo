@@ -2,6 +2,7 @@ package sort;
 
 import java.util.Arrays;
 
+//各类排序算法实现
 public class Sort {
     public static void main(String[] args) {
         int[] nums={2,3,234,11,54,23,55,0,333,12,32,54,22};
