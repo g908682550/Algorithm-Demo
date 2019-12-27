@@ -139,9 +139,9 @@ public class Sort {
      * 归并排序
      */
     public static void MergeSort(int[] nums,int left,int right,int[] temp){
-        if(left<=right) return;
+        if(left>=right) return;
         int mid=(left+right)>>>1;
-        MergeSort(nums,0,mid,temp);
+        MergeSort(nums,left,mid,temp);
         MergeSort(nums,mid+1,right,temp);
         Merge(nums,left,mid,right,temp);
     }
