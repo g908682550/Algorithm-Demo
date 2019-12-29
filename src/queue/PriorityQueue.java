@@ -13,12 +13,18 @@ public class PriorityQueue {
         return N==0;
     }
     public int size(){
-        return N;
+        return N+1;
     }
     public void insert(int k){
-        nums[N++]=k;
-        swim(N);
+        nums[N]=k;
+        if(N<nums.length-1) N++;
+        swim(N-1);//将刚才插入的元素上浮
     }
+
+    public int Max(){
+        return nums[0];
+    }
+
     public int delMax(){
         int max=nums[0];
         swap(0,N--);
@@ -31,15 +37,15 @@ public class PriorityQueue {
     }
     private void swap(int i,int j){
         int temp=nums[i];
-        nums[j]=nums[i];
-        nums[i]=temp;
+        nums[i]=nums[j];
+        nums[j]=temp;
     }
 
     //上浮操作
     private void swim(int k){
         while(k>0&&less((k-1)/2,k)){
             swap((k-1)/2,k);
-            k=k/2;
+            k=(k-1)/2;
         }
     }
     //下沉操作
