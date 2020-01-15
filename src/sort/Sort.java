@@ -5,15 +5,14 @@ import java.util.Arrays;
 //各类排序算法实现
 public class Sort {
 
-    private static int count;
-
     public static void main(String[] args) {
-//        int[] nums={2,3,234,11,54,23,55,0,333,12,32,54,22};
-        int[] nums={1,2,3,4,5,6,7,0};
+        int[] nums={2,3,234,11,54,23,55,0,333,12,32,54,22};
+//        int[] nums={1,2,3,4,5,6,7,0};
         int[] temp=new int[nums.length];
-        MergeSort(nums,0,nums.length-1,temp);
+//        MergeSort(nums,0,nums.length-1,temp);
+        countingSort(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println(count%1000000007);
+//        System.out.println(count%1000000007);
     }
     /**
      * 快速排序
@@ -29,8 +28,8 @@ public class Sort {
     private static int partition(int[] nums, int left, int right) {
         int l=left,r=right+1,partition=nums[left];
         while(true){
-            while(nums[++l]<partition) if(l>=right) break;
-            while(nums[--r]>partition) if(r<=left) break;
+            while(nums[++l]<partition) if(l==right) break;//从左边往右找到第一个大于切分元素的元素
+            while(nums[--r]>partition) if(r==left) break;//从右边往左找到第一个小于切分元素的元素
             if(l>=r) break;
             swap(nums,l,r);
         }
@@ -44,9 +43,9 @@ public class Sort {
      */
     public static void popSort(int[] nums){
         int n=nums.length;
-        for(int i=1;i<n;i++){
+        for(int i=1;i<n;i++){//只需进行n-1次排序，最后一个元素不用排序。
             int flag=0;
-            for(int j=0;j<n-i;j++){
+            for(int j=0;j<n-i;j++){//j<n-i表示后i个元素已经有序，不必进行比较
                 if(nums[j]>nums[j+1]) swap(nums,j,j+1);
                 flag=1;
             }
@@ -165,9 +164,48 @@ public class Sort {
             else if(j>right)            nums[k]=temp[i++];
             else if(temp[i]>temp[j])    {
                 nums[k]=temp[j++];
-                count+=(mid-i+1);
+//                count+=(mid-i+1);
             }
             else                        nums[k]=temp[i++];
         }
     }
+
+    /**
+     * 计数排序
+     * @param arr
+     */
+    public static void countingSort(int[] arr){
+        countingSort1(arr,getMinValue(arr),getMaxValue(arr));
+    }
+
+    private static void countingSort1(int[] nums, int minValue,int maxValue) {
+        int length=maxValue-minValue+1;
+        int[] bucket=new int[length];
+        for(int value:nums){
+            bucket[value]++;
+        }
+        int i=0;
+        for(int j=0;j<bucket.length;j++){
+            while(bucket[j]>0){
+                nums[i++]=j;
+                bucket[j]--;
+            }
+        }
+    }
+
+    public static int getMaxValue(int[] nums){
+        int maxValue=nums[0];
+        for(int i:nums){
+            if(i>maxValue) maxValue=i;
+        }
+        return maxValue;
+    }
+    public static int getMinValue(int[] nums){
+        int minValue=nums[0];
+        for(int i:nums){
+            if(i<minValue) minValue=i;
+        }
+        return minValue;
+    }
+
 }
