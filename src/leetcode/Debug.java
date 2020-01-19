@@ -8,7 +8,10 @@ public class Debug {
 
     @Test
     public void test(){
-
+        int[] nums1={1,2,3,4};
+        int[] nums2={1,2,3,4};
+        System.out.println(nums1==nums2);
+        System.out.println(Arrays.equals(nums1, nums2));
         solution1("cbaebabacd","abc");
     }
 
@@ -42,5 +45,6 @@ public class Debug {
         }
         return result;
     }
+
 
 }
