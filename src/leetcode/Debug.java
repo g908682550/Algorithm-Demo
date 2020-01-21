@@ -10,9 +10,18 @@ public class Debug {
     public void test(){
         int[] nums1={1,2,3,4};
         int[] nums2={1,2,3,4};
-        System.out.println(nums1==nums2);
-        System.out.println(Arrays.equals(nums1, nums2));
-        solution1("cbaebabacd","abc");
+        Set<Character> set1=new HashSet<>();
+        Set<Character> set2=new HashSet<>();
+        set1.add('a');
+        set1.add('b');
+        set1.add('c');
+        set2.add('b');
+        set2.add('a');
+        set2.add('c');
+        System.out.println(set1.equals(set2));
+//        System.out.println(nums1==nums2);
+//        System.out.println(Arrays.equals(nums1, nums2));
+//        solution1("cbaebabacd","abc");
     }
 
     public List<Integer> solution1(String s, String p){

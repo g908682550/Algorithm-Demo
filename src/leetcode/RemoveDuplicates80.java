@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 public class RemoveDuplicates80 {
 
-
     @Test
     public void test(){
         int[] nums={1,1,1,2,2,3};

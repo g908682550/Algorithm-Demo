@@ -34,7 +34,7 @@ public class MinSubArrayLen209 {
     }
 
     /**
-     * 双指针遍历法
+     * 滑动窗口
      * @param s
      * @param nums
      * @return
@@ -44,11 +44,11 @@ public class MinSubArrayLen209 {
         int i=0,j=0,sum=0,result=n+1;
         while(j<n){
             sum=sum+nums[j];
-            while(sum>=s&&i<=j){
-                result=Math.min(result,j-i+1);
+            j++;
+            while(sum>=s&&i<j){
+                result=Math.min(result,j-i);
                 sum=sum-nums[i++];
             }
-            j++;
         }
         if(result==n+1) return 0;
         return result;
