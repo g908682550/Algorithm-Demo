@@ -60,11 +60,11 @@
 
 438：找到字符串所有字母异位字 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindAnagrams438.java>
 
-447: 回旋镖的数量 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumberOfBoomeranges447.java>
+447：回旋镖的数量 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumberOfBoomeranges447.java>
 
 451：根据字符出现频率排序 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection349.java>
 
-454: 四数相加II <https://github.com/g908682550/Demo/blob/master/src/leetcode/FourSumCount454.java>
+454：四数相加II <https://github.com/g908682550/Demo/blob/master/src/leetcode/FourSumCount454.java>
 
 ## 分类
 
