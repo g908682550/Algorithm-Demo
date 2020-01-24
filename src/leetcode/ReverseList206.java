@@ -22,7 +22,7 @@ public class ReverseList206 {
 
 
     /**
-     * 双指针遍历反转链表
+     * 三指针遍历反转链表
      * @return
      */
     public ListNode solution1(ListNode head){

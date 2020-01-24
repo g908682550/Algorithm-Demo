@@ -12,7 +12,13 @@
 
 16：最接近的三数之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ThreeSumClosest16.java>
 
+19：删除链表的倒数第N个节点 <>
+
 21：合并两个有序链表 <>
+
+24：两两交换链表中的节点 <>
+
+25：K个一组翻转链表 <>
 
 26：删除排序数组中的重复项 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveDuplicates26.java>
 
@@ -21,6 +27,8 @@
 42：接雨水 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Trap42.java>
 
 49：字母异位词分组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GroupAnagrams49.java>
+
+61：旋转链表 <>
 
 75：颜色分类 <https://github.com/g908682550/Demo/blob/master/src/leetcode/sortColors75.java>
 
@@ -39,6 +47,14 @@
 92：反转链表II <>
 
 125：验证回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome125.java>
+
+138：复制带随机链表的指针 <>
+
+143：重排链表 <>
+
+147：对链表进行插入排序 <>
+
+148：排序链表 <>
 
 149：直线上最多的点数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxPoints149.java>
 
@@ -61,6 +77,10 @@
 219：存在重复元素II <https://github.com/g908682550/Demo/blob/master/src/leetcode/ContainsNearbyDuplicate219.java>
 
 220：存在重复元素III <https://github.com/g908682550/Demo/blob/master/src/leetcode/containsNearbyAlmostDuplicate220.java>
+
+234：回文链表 <>
+
+237：删除链表中的节点 <>
 
 242：有效的字母异位词 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsAnagram242.java>
 
@@ -85,6 +105,8 @@
 451：根据字符出现频率排序 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection349.java>
 
 454: 四数相加II <https://github.com/g908682550/Demo/blob/master/src/leetcode/FourSumCount454.java>
+
+876：链表的中间节点 <>
 
 ## 分类
 
@@ -173,6 +195,28 @@
 445：两数相加II <>
 
 21：合并两个有序链表 <>
+
+24：两两交换链表中的节点 <>
+
+25：K个一组翻转链表 <>
+
+147：对链表进行插入排序 <>
+
+148：排序链表 <>
+
+237：删除链表中的节点 <>
+
+19：删除链表的倒数第N个节点 <>
+
+61：旋转链表 <>
+
+143：重排链表 <>
+
+876：链表的中间节点 <>
+
+234：回文链表 <>
+
+138：复制带随机链表的指针 <>
 
 # 经典数据结构和算法
 
