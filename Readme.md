@@ -14,6 +14,8 @@
 
 19：删除链表的倒数第N个节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java>
 
+20：有效的括号 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/IsValid20.java>
+
 21：合并两个有序链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MergeTwoLists21.java>
 
 24：两两交换链表中的节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SwapPairs24.java>
@@ -29,6 +31,8 @@
 49：字母异位词分组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GroupAnagrams49.java>
 
 61：旋转链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RotateRight61.java>
+
+71：简化路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/simplifyPath71.java>
 
 75：颜色分类 <https://github.com/g908682550/Demo/blob/master/src/leetcode/sortColors75.java>
 
@@ -46,17 +50,25 @@
 
 92：反转链表II <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReverseBetween92.java>
 
+94：二叉树的中序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InorderTraversal94.java>
+
 125：验证回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome125.java>
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
 143：重排链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReorderList143.java>
 
+144：二叉树的前序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PreOrderTraversal144.java>
+
+145：二叉树的后序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PostOrderTraversal145>
+
 147：对链表进行插入排序 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InsertionSortList147.java>
 
 148：排序链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SortList148.java>
 
 149：直线上最多的点数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxPoints149.java>
+
+150：逆波兰表达式求值 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/EvalRPN150.java>
 
 167：两数之和II-输入有序数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TwoSum167.java>
 
@@ -89,6 +101,8 @@
 290：单词规律 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordPattern290.java>
 
 328：奇偶链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OddEvenList328.java>
+
+341：扁平化嵌套列表迭代器 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NestedIterator341.java>
 
 344：反转字符串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReverseString344.java>
 
@@ -174,7 +188,7 @@
 
 220：存在重复元素III <https://github.com/g908682550/Demo/blob/master/src/leetcode/containsNearbyAlmostDuplicate220.java>（也为滑动窗口问题）
 
-##链表问题
+###链表问题
 
 82：删除排序链表的重复元素II <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteDuplicates82.java>
 
@@ -217,6 +231,22 @@
 234：回文链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome234.java>
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
+
+###栈和队列
+
+20：有效的括号 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/IsValid20.java>
+
+150：逆波兰表达式求值 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/EvalRPN150.java>
+
+71：简化路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/simplifyPath71.java>
+
+144：二叉树的前序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PreOrderTraversal144.java>
+
+145：二叉树的后序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PostOrderTraversal145>
+
+94：二叉树的中序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InorderTraversal94.java>
+
+341：扁平化嵌套列表迭代器 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NestedIterator341.java>
 
 # 经典数据结构和算法
 
