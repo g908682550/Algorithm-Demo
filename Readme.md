@@ -52,7 +52,15 @@
 
 94：二叉树的中序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InorderTraversal94.java>
 
+102：二叉树的层次遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LevelOrder102.java>
+
+103：二叉树的锯齿形层次遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ZigzagLevelOrder103.java>
+
+107：二叉树的层次遍历II <https://github.com/g908682550/Demo/blob/master/src/leetcode/LevelOrderBottom107.java>
+
 125：验证回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome125.java>
+
+127：单词接龙 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LadderLength127.java>
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
@@ -71,6 +79,8 @@
 150：逆波兰表达式求值 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/EvalRPN150.java>
 
 167：两数之和II-输入有序数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TwoSum167.java>
+
+199：二叉树的右视图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RightSideView199.java>
 
 202：快乐数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsHappy202.java>
 
@@ -96,6 +106,8 @@
 
 242：有效的字母异位词 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsAnagram242.java>
 
+279：完全平方数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumSquares279.java>
+
 283：移动零 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MoveZeros283.java>
 
 290：单词规律 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordPattern290.java>
@@ -105,6 +117,8 @@
 341：扁平化嵌套列表迭代器 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NestedIterator341.java>
 
 344：反转字符串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReverseString344.java>
+
+347：前K个高频元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TopKFrequent347.java>
 
 349：两个数组的交集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection349.java>
 
@@ -247,6 +261,20 @@
 94：二叉树的中序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InorderTraversal94.java>
 
 341：扁平化嵌套列表迭代器 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NestedIterator341.java>
+
+102：二叉树的层次遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LevelOrder102.java>
+
+103：二叉树的锯齿形层次遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ZigzagLevelOrder103.java>
+
+107：二叉树的层次遍历II <https://github.com/g908682550/Demo/blob/master/src/leetcode/LevelOrderBottom107.java>
+
+199：二叉树的右视图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RightSideView199.java>
+
+279：完全平方数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumSquares279.java>
+
+127：单词接龙 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LadderLength127.java>
+
+347：前K个高频元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TopKFrequent347.java>
 
 # 经典数据结构和算法
 

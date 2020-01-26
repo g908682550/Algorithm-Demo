@@ -13,6 +13,7 @@ public class Debug {
         list.add(1);
         list.add(2);
         Iterator<Integer> iterator = list.iterator();
+        Iterator<Integer> iterator1 = list.iterator();
     }
 
     public List<Integer> solution1(String s, String p){
