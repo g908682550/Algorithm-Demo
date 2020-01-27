@@ -52,15 +52,35 @@
 
 94：二叉树的中序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InorderTraversal94.java>
 
+98：验证二叉搜索树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsValidVBST98.java>
+
+100：相同的树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsSameTree100.java>
+
+101：对称二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsSymmetric101.java>
+
 102：二叉树的层次遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LevelOrder102.java>
 
 103：二叉树的锯齿形层次遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ZigzagLevelOrder103.java>
 
+104：二叉树的最大深度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/maxDepth104.java>
+
 107：二叉树的层次遍历II <https://github.com/g908682550/Demo/blob/master/src/leetcode/LevelOrderBottom107.java>
+
+110：平衡二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/isBalanced.java>
+
+108：将有序数组转换为二叉搜索树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SortedArrayToBST108.java>
+
+111：二叉树的最小深度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/minDepth111.java>
+
+112：路径总和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/HasPathSum112.java>
+
+113：路径总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/pathSum.java>
 
 125：验证回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome125.java>
 
 127：单词接龙 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LadderLength127.java>
+
+129：从根到叶子节点路径之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/sumNumbers129.java>
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
@@ -100,11 +120,21 @@
 
 220：存在重复元素III <https://github.com/g908682550/Demo/blob/master/src/leetcode/containsNearbyAlmostDuplicate220.java>
 
+222：完全二叉树的节点个数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/countNodes222.java>
+
+226：翻转二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InvertTree226.java>
+
+230：二叉搜索树中第K小的元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/KthSmallest230.java>
+
 234：回文链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome234.java>
+
+235：二叉搜索数的最近公共祖先 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LowestCommonAncestor235.java>
 
 237：删除链表中的节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteNode237.java>
 
 242：有效的字母异位词 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsAnagram242.java>
+
+257：二叉树的所有路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/BinaryTreePaths257.java>
 
 279：完全平方数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumSquares279.java>
 
@@ -124,11 +154,17 @@
 
 350：两个数组的交集II <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection350.java>
 
+404：左叶子之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SumOfLeftLeaves404.java>
+
+437：路径总和III <https://github.com/g908682550/Demo/blob/master/src/leetcode/PathSum437.java>
+
 438：找到字符串所有字母异位字 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindAnagrams438.java>
 
 445：两数相加II <https://github.com/g908682550/Demo/blob/master/src/leetcode/AddTwoNumbers445.java>
 
 447: 回旋镖的数量 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumberOfBoomeranges447.java>
+
+450：删除二叉搜索树中的节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/deleteNode.java>
 
 451：根据字符出现频率排序 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection349.java>
 
@@ -275,6 +311,44 @@
 127：单词接龙 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LadderLength127.java>
 
 347：前K个高频元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TopKFrequent347.java>
+
+###二叉树
+
+104：二叉树的最大深度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/maxDepth104.java>
+
+111：二叉树的最小深度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/minDepth111.java>
+
+226：翻转二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InvertTree226.java>
+
+100：相同的树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsSameTree100.java>
+
+101：对称二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsSymmetric101.java>
+
+222：完全二叉树的节点个数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/countNodes222.java>
+
+110：平衡二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/isBalanced.java>
+
+112：路径总和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/HasPathSum112.java>
+
+113：路径总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/pathSum.java>
+
+437：路径总和III <https://github.com/g908682550/Demo/blob/master/src/leetcode/PathSum437.java>
+
+404：左叶子之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SumOfLeftLeaves404.java>
+
+257：二叉树的所有路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/BinaryTreePaths257.java>
+
+129：从根到叶子节点路径之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/sumNumbers129.java>
+
+235：二叉搜索数的最近公共祖先 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LowestCommonAncestor235.java>
+
+98：验证二叉搜索树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsValidVBST98.java>
+
+450：删除二叉搜索树中的节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/deleteNode.java>
+
+108：将有序数组转换为二叉搜索树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SortedArrayToBST108.java>
+
+230：二叉搜索树中第K小的元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/KthSmallest230.java>
 
 # 经典数据结构和算法
 
