@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pathSum113 {
+public class PathSum113 {
 
     @Test
     public void test(){

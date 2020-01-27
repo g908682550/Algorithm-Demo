@@ -3,7 +3,7 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class sumNumbers129 {
+public class SumNumbers129 {
 
     List<String> list=new ArrayList<>();
 
