@@ -12,6 +12,8 @@
 
 16：最接近的三数之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ThreeSumClosest16.java>
 
+17：电话号码的字母组合 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LetterCombinations17.java>
+
 19：删除链表的倒数第N个节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java>
 
 20：有效的括号 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/IsValid20.java>
@@ -27,6 +29,8 @@
 27：移除元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveElement27.java>
 
 42：接雨水 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Trap42.java>
+
+47：全排列II <https://github.com/g908682550/Demo/blob/master/src/leetcode/PermuteUnique47.java>
 
 49：字母异位词分组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GroupAnagrams49.java>
 
@@ -81,6 +85,8 @@
 127：单词接龙 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LadderLength127.java>
 
 129：从根到叶子节点路径之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/sumNumbers129.java>
+
+131：分割回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition131.java>
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
@@ -349,6 +355,18 @@
 108：将有序数组转换为二叉搜索树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SortedArrayToBST108.java>
 
 230：二叉搜索树中第K小的元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/KthSmallest230.java>
+
+###递归与回溯
+
+17：电话号码的字母组合 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LetterCombinations17.java>
+
+93：复原IP地址 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RestoreIpAddress93.java>
+
+131：分割回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition131.java>
+
+46：全排列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Permute46.java>
+
+47：全排列II <https://github.com/g908682550/Demo/blob/master/src/leetcode/PermuteUnique47.java>
 
 # 经典数据结构和算法
 
