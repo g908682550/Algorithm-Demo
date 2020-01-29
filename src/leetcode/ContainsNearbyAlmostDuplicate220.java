@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.TreeSet;
 
-public class containsNearbyAlmostDuplicate220 {
+public class ContainsNearbyAlmostDuplicate220 {
 
     @Test
     public void test(){

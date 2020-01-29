@@ -28,6 +28,10 @@
 
 27：移除元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveElement27.java>
 
+39：组合总和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum39.java>
+
+40：组合总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum240.java>
+
 42：接雨水 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Trap42.java>
 
 47：全排列II <https://github.com/g908682550/Demo/blob/master/src/leetcode/PermuteUnique47.java>
@@ -42,6 +46,10 @@
 
 76：最小覆盖子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinWindow76.java>
 
+77：组合 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Combine77.java>
+
+78：子集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Subsets78.java>
+
 80：删除排序数组中的重复项II <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveDuplicates80.java>
 
 82：删除排序链表的重复元素II <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteDuplicates82.java>
@@ -51,6 +59,8 @@
 86：分割链表<https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition86.java>
 
 88：合并两个有序数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Merge88.java>
+
+90：子集II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SubsetsWithDup90.java>
 
 92：反转链表II <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReverseBetween92.java>
 
@@ -120,13 +130,15 @@
 
 215：数组中的第K个最大元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindKthLargest215.java>
 
+216：组合总和III <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum3216.java>
+
 217：存在重复元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ContainsDuplicate217.java>
 
 219：存在重复元素II <https://github.com/g908682550/Demo/blob/master/src/leetcode/ContainsNearbyDuplicate219.java>
 
-220：存在重复元素III <https://github.com/g908682550/Demo/blob/master/src/leetcode/containsNearbyAlmostDuplicate220.java>
+220：存在重复元素III <https://github.com/g908682550/Demo/blob/master/src/leetcode/ContainsNearbyAlmostDuplicate220.java>
 
-222：完全二叉树的节点个数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/countNodes222.java>
+222：完全二叉树的节点个数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CountNodes222.java>
 
 226：翻转二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InvertTree226.java>
 
@@ -159,6 +171,8 @@
 349：两个数组的交集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection349.java>
 
 350：两个数组的交集II <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection350.java>
+
+401：二进制手表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReadBinaryWatch401.java>
 
 404：左叶子之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SumOfLeftLeaves404.java>
 
@@ -242,7 +256,7 @@
 
 219：存在重复元素II <https://github.com/g908682550/Demo/blob/master/src/leetcode/ContainsNearbyDuplicate219.java>（也为滑动窗口问题）
 
-220：存在重复元素III <https://github.com/g908682550/Demo/blob/master/src/leetcode/containsNearbyAlmostDuplicate220.java>（也为滑动窗口问题）
+220：存在重复元素III <https://github.com/g908682550/Demo/blob/master/src/leetcode/ContainsNearbyAlmostDuplicate220.java>（也为滑动窗口问题）
 
 ###链表问题
 
@@ -367,6 +381,18 @@
 46：全排列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Permute46.java>
 
 47：全排列II <https://github.com/g908682550/Demo/blob/master/src/leetcode/PermuteUnique47.java>
+
+77：组合 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Combine77.java>
+
+40：组合总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum240.java>
+
+216：组合总和III <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum3216.java>
+
+78：子集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Subsets78.java>
+
+90：子集II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SubsetsWithDup90.java>
+
+401：二进制手表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReadBinaryWatch401.java>
 
 # 经典数据结构和算法
 
