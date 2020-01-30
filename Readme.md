@@ -38,6 +38,8 @@
 
 49：字母异位词分组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GroupAnagrams49.java>
 
+51：N皇后 <https://github.com/g908682550/Demo/blob/master/src/leetcode/solveNQueens.java>
+
 61：旋转链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RotateRight61.java>
 
 71：简化路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/simplifyPath71.java>
@@ -49,6 +51,8 @@
 77：组合 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Combine77.java>
 
 78：子集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Subsets78.java>
+
+79：单词搜索 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Exist79.java>
 
 80：删除排序数组中的重复项II <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveDuplicates80.java>
 
@@ -96,7 +100,11 @@
 
 129：从根到叶子节点路径之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/sumNumbers129.java>
 
+130：被围绕的区域 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Solve130.java>
+
 131：分割回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition131.java>
+
+137：只出现一次的数字II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SingleNumber.java>
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
@@ -117,6 +125,8 @@
 167：两数之和II-输入有序数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TwoSum167.java>
 
 199：二叉树的右视图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RightSideView199.java>
+
+200：岛屿数量 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumsIslands200.java>
 
 202：快乐数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsHappy202.java>
 
@@ -176,6 +186,8 @@
 
 404：左叶子之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SumOfLeftLeaves404.java>
 
+417：太平洋大西洋水流问题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PacificAtlantic417.java>
+
 437：路径总和III <https://github.com/g908682550/Demo/blob/master/src/leetcode/PathSum437.java>
 
 438：找到字符串所有字母异位字 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindAnagrams438.java>
@@ -215,6 +227,8 @@
 125：验证回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome125.java>
 
 11：盛水最多的容器 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxArea11.java>
+
+137：只出现一次的数字II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SingleNumber.java>
 
 ### 滑动窗口
 
@@ -393,6 +407,16 @@
 90：子集II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SubsetsWithDup90.java>
 
 401：二进制手表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReadBinaryWatch401.java>
+
+79：单词搜索 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Exist79.java>
+
+200：岛屿数量 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumsIslands200.java>
+
+130：被围绕的区域 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Solve130.java>
+
+417：太平洋大西洋水流问题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PacificAtlantic417.java>
+
+51：N皇后 <https://github.com/g908682550/Demo/blob/master/src/leetcode/solveNQueens.java>
 
 # 经典数据结构和算法
 
