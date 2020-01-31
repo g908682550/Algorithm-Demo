@@ -42,6 +42,14 @@
 
 61：旋转链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RotateRight61.java>
 
+62：不同路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/UniquePaths62.java>
+
+63：不同路径II <https://github.com/g908682550/Demo/blob/master/src/leetcode/UniquePathwWithObstacles63.java>
+
+64：最小路径和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinPathSum64.java>
+
+70：爬楼梯 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ClimbStairs70.java>
+
 71：简化路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/simplifyPath71.java>
 
 75：颜色分类 <https://github.com/g908682550/Demo/blob/master/src/leetcode/sortColors75.java>
@@ -65,6 +73,8 @@
 88：合并两个有序数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Merge88.java>
 
 90：子集II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SubsetsWithDup90.java>
+
+91：解码方法 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumDecodings.java>
 
 92：反转链表II <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReverseBetween92.java>
 
@@ -93,6 +103,8 @@
 112：路径总和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/HasPathSum112.java>
 
 113：路径总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/pathSum.java>
+
+120：三角形最小路径和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinimumTotal120.java>
 
 125：验证回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome125.java>
 
@@ -124,6 +136,8 @@
 
 167：两数之和II-输入有序数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TwoSum167.java>
 
+198：打家劫舍 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob198.java>
+
 199：二叉树的右视图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RightSideView199.java>
 
 200：岛屿数量 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumsIslands200.java>
@@ -137,6 +151,8 @@
 206：反转链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReverseList206.java>
 
 209：长度最小的子数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinSubArrayLen209.java>
+
+213:打家劫舍II <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob213.java>
 
 215：数组中的第K个最大元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindKthLargest215.java>
 
@@ -171,6 +187,8 @@
 290：单词规律 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordPattern290.java>
 
 328：奇偶链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OddEvenList328.java>
+
+337：打家劫舍III <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob337.java>
 
 341：扁平化嵌套列表迭代器 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NestedIterator341.java>
 
@@ -272,7 +290,7 @@
 
 220：存在重复元素III <https://github.com/g908682550/Demo/blob/master/src/leetcode/ContainsNearbyAlmostDuplicate220.java>（也为滑动窗口问题）
 
-###链表问题
+### 链表问题
 
 82：删除排序链表的重复元素II <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteDuplicates82.java>
 
@@ -316,7 +334,7 @@
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
-###栈和队列
+### 栈和队列
 
 20：有效的括号 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/IsValid20.java>
 
@@ -346,7 +364,7 @@
 
 347：前K个高频元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TopKFrequent347.java>
 
-###二叉树
+### 二叉树
 
 104：二叉树的最大深度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/maxDepth104.java>
 
@@ -384,7 +402,7 @@
 
 230：二叉搜索树中第K小的元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/KthSmallest230.java>
 
-###递归与回溯
+### 递归与回溯
 
 17：电话号码的字母组合 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LetterCombinations17.java>
 
@@ -417,6 +435,26 @@
 417：太平洋大西洋水流问题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PacificAtlantic417.java>
 
 51：N皇后 <https://github.com/g908682550/Demo/blob/master/src/leetcode/solveNQueens.java>
+
+### 动态规划
+
+70：爬楼梯 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ClimbStairs70.java>
+
+120：三角形最小路径和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinimumTotal120.java>
+
+64：最小路径和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinPathSum64.java>
+
+91：解码方法 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumDecodings.java>
+
+62：不同路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/UniquePaths62.java>
+
+63：不同路径II <https://github.com/g908682550/Demo/blob/master/src/leetcode/UniquePathwWithObstacles63.java>
+
+198：打家劫舍 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob198.java>
+
+213：打家劫舍II <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob213.java>
+
+337：打家劫舍III <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob337.java>
 
 # 经典数据结构和算法
 

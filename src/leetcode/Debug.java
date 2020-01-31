@@ -8,12 +8,20 @@ public class Debug {
 
     @Test
     public void test(){
-        List<Integer> list=new ArrayList<>();
-        list.add(0);
-        list.add(1);
-        list.add(2);
-        Iterator<Integer> iterator = list.iterator();
-        Iterator<Integer> iterator1 = list.iterator();
+        Map<String,Integer> map=new HashMap<>();
+        map.put("1",2);
+        map.put("1",3);
+
+        Iterator<Map.Entry<String, Integer>> iterator = map.entrySet().iterator();
+        while(iterator.hasNext()){
+            Map.Entry<String, Integer> next = iterator.next();
+            System.out.println(next.getKey()+":"+next.getValue());
+        }
+        map.forEach((k,v)->{
+            System.out.println(k+":"+v);
+        });
+
+        String s="1024";
     }
 
     public List<Integer> solution1(String s, String p){
