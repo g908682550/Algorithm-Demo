@@ -40,6 +40,8 @@
 
 51：N皇后 <https://github.com/g908682550/Demo/blob/master/src/leetcode/solveNQueens.java>
 
+60：第K个排列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GetPermutation60.java>
+
 61：旋转链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RotateRight61.java>
 
 62：不同路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/UniquePaths62.java>
@@ -51,6 +53,8 @@
 70：爬楼梯 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ClimbStairs70.java>
 
 71：简化路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/simplifyPath71.java>
+
+72：编辑距离 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinDistance72.java>
 
 75：颜色分类 <https://github.com/g908682550/Demo/blob/master/src/leetcode/sortColors75.java>
 
@@ -105,6 +109,12 @@
 113：路径总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/pathSum.java>
 
 120：三角形最小路径和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinimumTotal120.java>
+
+121：买卖股票的最佳时机 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxProfit121.java>
+
+122：买卖股票的最佳时机II <https://github.com/g908682550/Demo/blob/master/src/MaxProfit122.java>
+
+122：买卖股票的最佳时机III <https://github.com/g908682550/Demo/blob/master/src/MaxProfit123.java>
 
 125：验证回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome125.java>
 
@@ -199,6 +209,8 @@
 349：两个数组的交集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection349.java>
 
 350：两个数组的交集II <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection350.java>
+
+376：摆动序列<https://github.com/g908682550/Demo/blob/master/src/leetcode/WiggleMaxLength376.java>
 
 401：二进制手表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReadBinaryWatch401.java>
 
@@ -436,6 +448,8 @@
 
 51：N皇后 <https://github.com/g908682550/Demo/blob/master/src/leetcode/solveNQueens.java>
 
+60：第K个排列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GetPermutation60.java>
+
 ### 动态规划
 
 70：爬楼梯 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ClimbStairs70.java>
@@ -455,6 +469,17 @@
 213：打家劫舍II <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob213.java>
 
 337：打家劫舍III <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob337.java>
+
+121：买卖股票的最佳时机 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxProfit121.java>
+
+122：买卖股票的最佳时机II <https://github.com/g908682550/Demo/blob/master/src/MaxProfit122.java>
+
+122：买卖股票的最佳时机III <https://github.com/g908682550/Demo/blob/master/src/MaxProfit123.java>
+
+376：摆动序列<https://github.com/g908682550/Demo/blob/master/src/leetcode/WiggleMaxLength376.java>
+
+72：编辑距离 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinDistance72.java>
+
 
 # 经典数据结构和算法
 
