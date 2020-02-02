@@ -130,6 +130,8 @@
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
+139：单词拆分 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordBreak139.java>
+
 143：重排链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReorderList143.java>
 
 144：二叉树的前序遍历 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PreOrderTraversal144.java>
@@ -196,6 +198,8 @@
 
 290：单词规律 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordPattern290.java>
 
+322：零钱兑换 <https://github.com/g908682550/Demo/blob/master/src/CoinChange322.java>
+
 328：奇偶链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OddEvenList328.java>
 
 337：打家劫舍III <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob337.java>
@@ -212,9 +216,13 @@
 
 376：摆动序列<https://github.com/g908682550/Demo/blob/master/src/leetcode/WiggleMaxLength376.java>
 
+377：组合总和IV <https://github.com/g908682550/Demo/blob/master/src/CombinationSum4377.java>
+
 401：二进制手表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReadBinaryWatch401.java>
 
 404：左叶子之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SumOfLeftLeaves404.java>
+
+416：分割等和子集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CanPartition416.java>
 
 417：太平洋大西洋水流问题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PacificAtlantic417.java>
 
@@ -231,6 +239,8 @@
 451：根据字符出现频率排序 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection349.java>
 
 454: 四数相加II <https://github.com/g908682550/Demo/blob/master/src/leetcode/FourSumCount454.java>
+
+494：目标和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindTargetSumWays494.java>
 
 876：链表的中间节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MiddleNode876.java>
 
@@ -480,6 +490,15 @@
 
 72：编辑距离 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinDistance72.java>
 
+416：分割等和子集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CanPartition416.java>
+
+322：零钱兑换 <https://github.com/g908682550/Demo/blob/master/src/CoinChange322.java>
+
+377：组合总和IV <https://github.com/g908682550/Demo/blob/master/src/CombinationSum4377.java>
+
+139：单词拆分 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordBreak139.java>
+
+494：目标和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindTargetSumWays494.java>
 
 # 经典数据结构和算法
 

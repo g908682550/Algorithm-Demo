@@ -1,16 +1,15 @@
 package leetcode;
 
 import org.junit.Test;
-
 import java.util.*;
 
 public class Debug {
 
     @Test
     public void test(){
-        List<Integer> list=new ArrayList<>();
-        list.set(2,1);
-        System.out.println(list);
+
+        int i=Integer.MAX_VALUE;
+        System.out.println(i);
 
     }
 
