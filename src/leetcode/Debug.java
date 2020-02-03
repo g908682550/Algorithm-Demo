@@ -2,14 +2,34 @@ package leetcode;
 
 import org.junit.Test;
 import java.util.*;
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Debug {
 
     @Test
     public void test(){
 
-        int i=Integer.MAX_VALUE;
-        System.out.println(i);
+        Lock lock=new ReentrantLock();
+        Runnable r=()->{
+          try{
+              boolean b = lock.tryLock(3, TimeUnit.SECONDS);
+              if(b){
+                  System.out.println(Thread.currentThread().getName()+"获得锁");
+                  Thread.sleep(8888);
+              }
+          } catch (InterruptedException e) {
+              e.printStackTrace();
+          } finally {
+              System.out.println(Thread.currentThread().getName()+"释放锁");
+              lock.unlock();
+          }
+        };
+
+        new Thread(r,"1").start();
+        new Thread(r,"2").start();
 
     }
 

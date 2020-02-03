@@ -218,6 +218,8 @@
 
 377：组合总和IV <https://github.com/g908682550/Demo/blob/master/src/CombinationSum4377.java>
 
+392：判断子序列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsSubsequence392.java>
+
 401：二进制手表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReadBinaryWatch401.java>
 
 404：左叶子之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SumOfLeftLeaves404.java>
@@ -225,6 +227,8 @@
 416：分割等和子集 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CanPartition416.java>
 
 417：太平洋大西洋水流问题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PacificAtlantic417.java>
+
+435：无重叠区间 <https://github.com/g908682550/Demo/blob/master/src/leetcode/EraseOverlapIntervals435.java>
 
 437：路径总和III <https://github.com/g908682550/Demo/blob/master/src/leetcode/PathSum437.java>
 
@@ -499,6 +503,14 @@
 139：单词拆分 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordBreak139.java>
 
 494：目标和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindTargetSumWays494.java>
+
+### 贪心算法
+
+455：分发饼干 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindContentChildren455.java>
+
+392：判断子序列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsSubsequence392.java>
+
+435：无重叠区间 <https://github.com/g908682550/Demo/blob/master/src/leetcode/EraseOverlapIntervals435.java>
 
 # 经典数据结构和算法
 

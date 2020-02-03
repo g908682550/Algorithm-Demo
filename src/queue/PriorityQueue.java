@@ -3,7 +3,7 @@ package queue;
 /**
  * 基于堆的优先队列简易实现,最大堆
  */
-public class PriorityQueue {
+public class  PriorityQueue {
     private int[] nums;
     private int N=0;
     public PriorityQueue(int maxN){
