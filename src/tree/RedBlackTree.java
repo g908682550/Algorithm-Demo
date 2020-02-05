@@ -5,6 +5,16 @@ package tree;
  * 1、每个红链接均为3节点的左节点，红链接均为左链接
  * 2、没有任何一个结点同时和两条红链接相连
  * 3、该树是完美黑色平衡的，即任意空链接到根节点的路径上的黑链接数量相同
+ *
+ *
+ * 算法导论中的红黑树定义：
+ * 1、每个节点都是红色或者是黑色的
+ * 2、根节点是黑色的
+ * 3、每一个叶子节点（最后的空节点）是黑色的
+ * 4、如果一个节点是红色的，那么它的孩子节点都是黑色的
+ * 5、从任意一个节点到叶子节点，经过的黑色节点都是一样的
+ *
+ * 红黑树最大的优势在于它的添加和删除操作
  */
 public class RedBlackTree {
     //红黑树的插入算法实现
@@ -34,7 +44,7 @@ public class RedBlackTree {
         if(isRed(h.left)&&isRed(h.left.left)) h=rotateRight(h);
         if(isRed(h.right)&&isRed(h.left)) flipColors(h);
 
-        h.N=size(h.left)+size(h.right)+1;
+//        h.N=size(h.left)+size(h.right)+1;
         return h;
     }
 
@@ -49,8 +59,8 @@ public class RedBlackTree {
         x.left=h;
         x.color=h.color;
         h.color=RED;
-        x.N=h.N;
-        h.N=1+size(h.left)+size(h.right);
+//        x.N=h.N;
+//        h.N=1+size(h.left)+size(h.right);
         return x;
     }
     //右旋操作，旋转后的子节点均为红色，父节点继承之前父节点的颜色并返回
@@ -60,8 +70,8 @@ public class RedBlackTree {
         x.right=h;
         x.color=h.color;
         h.color=RED;
-        x.N=h.N;
-        h.N=1+size(h.left)+size(h.right);
+//        x.N=h.N;
+//        h.N=1+size(h.left)+size(h.right);
         return x;
     }
     //变色操作，将父节点变为红色，子节点变为黑色
@@ -71,8 +81,8 @@ public class RedBlackTree {
         h.left.color= BLACK;
         h.right.color=BLACK;
     }
-    public int size(){ return size(root);}
-    private int size(Node x){if(x==null) return 0; else return x.N;}
+//    public int size(){ return size(root);}
+//    private int size(Node x){if(x==null) return 0; else return x.N;}
 
 }
 
@@ -81,13 +91,13 @@ class Node{
     Integer val;
     //左子节点，右子节点
     Node left,right;
-//    //该树的子树中的结点个数
-    Integer N;
+////    //该树的子树中的结点个数
+//    Integer N;
     boolean color;
     public Node(String key,Integer val,int N,boolean color){
         this.key=key;
         this.val=val;
-        this.N=N;
+//        this.N=N;
         this.color=color;
     }
 }
