@@ -12,37 +12,37 @@ public class GraphDFS {
 
     private Graph G;
     private boolean[] visited;
-    private List<Integer> pre=new ArrayList<>();
-    private List<Integer> post=new ArrayList<>();
+    private int[] colors;
+    private boolean isBipartite=true;
 
     public GraphDFS(Graph G){
         this.G=G;
         visited=new boolean[G.getV()];
+        colors=new int[G.getV()];
+        for(int v=0;v<G.getV();v++) colors[v]=-1;
         for(int v=0;v<G.getV();v++)
-            if(!visited[v])
-                dfs(0);
+            if(!visited[v]&&!dfs(v,0))
+            {
+                isBipartite=false;
+                break;
+            }
+
     }
 
-    private void dfs(int v){
+    private boolean dfs(int v,int color){
         visited[v]=true;
-        pre.add(v);
+        colors[v]=color;
         for(int w:G.adj(v))
-            if(!visited[w])
-                dfs(w);
-        post.add(v);
+            if(!visited[w]) if(!dfs(w,1-color)) return false;
+            else if(colors[w]==colors[v]) return false;
+            return true;
     }
 
-    public Iterable<Integer> pre(){
-        return pre;
-    }
-
-    public Iterable<Integer> post(){
-        return post;
+    public boolean isBipartite(){
+        return isBipartite;
     }
 
     public static void main(String[] args) {
         Graph g=new Graph("g.txt");
-        GraphDFS graphDFS = new GraphDFS(g);
-        System.out.println(graphDFS.pre);
     }
 }
