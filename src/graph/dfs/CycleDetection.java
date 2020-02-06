@@ -1,7 +1,10 @@
-package graph.order;
+package graph.dfs;
 
 import graph.build.Graph;
 
+/**
+ * dfs判断图中是否有环
+ */
 public class CycleDetection {
     private Graph G;
     private boolean[] visited;

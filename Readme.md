@@ -28,6 +28,8 @@
 
 27：移除元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveElement27.java>
 
+30：串联所有单词的子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindSubstring30.java>
+
 39：组合总和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum39.java>
 
 40：组合总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum240.java>
@@ -246,6 +248,12 @@
 
 494：目标和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindTargetSumWays494.java>
 
+695：岛屿的最大面积 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxAreaOfIsland695.java>
+
+733：图像渲染 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FloodFill733.java>
+
+785：判断二分图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/isBipartite785.java>
+
 876：链表的中间节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MiddleNode876.java>
 
 ## 分类
@@ -283,6 +291,8 @@
 438：找到字符串所有字母异位字 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindAnagrams438.java>
 
 76：最小覆盖子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinWindow76.java>
+
+30：串联所有单词的子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindSubstring30.java>
 
 ### 查找表问题（Set、Map）
 
@@ -511,6 +521,14 @@
 392：判断子序列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsSubsequence392.java>
 
 435：无重叠区间 <https://github.com/g908682550/Demo/blob/master/src/leetcode/EraseOverlapIntervals435.java>
+
+### 图相关
+
+785：判断二分图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/isBipartite785.java>
+
+695：岛屿的最大面积 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxAreaOfIsland695.java>
+
+733：图像渲染 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FloodFill733.java>
 
 # 经典数据结构和算法
 

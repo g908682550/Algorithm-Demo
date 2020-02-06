@@ -1,21 +1,17 @@
-package graph.order;
+package graph.dfs;
 
 import graph.build.Graph;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
- * 图的深度优先遍历，时间复杂度O(V+E)
+ * dfs二分图的判定
  */
-public class GraphDFS {
-
+public class BipartitionDetection {
     private Graph G;
     private boolean[] visited;
     private int[] colors;
     private boolean isBipartite=true;
 
-    public GraphDFS(Graph G){
+    public BipartitionDetection(Graph G){
         this.G=G;
         visited=new boolean[G.getV()];
         colors=new int[G.getV()];
@@ -35,7 +31,7 @@ public class GraphDFS {
         for(int w:G.adj(v))
             if(!visited[w]) if(!dfs(w,1-color)) return false;
             else if(colors[w]==colors[v]) return false;
-            return true;
+        return true;
     }
 
     public boolean isBipartite(){

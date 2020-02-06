@@ -1,4 +1,4 @@
-package graph.order;
+package graph.dfs;
 
 import graph.build.Graph;
 
