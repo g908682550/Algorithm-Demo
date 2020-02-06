@@ -12,25 +12,9 @@ public class Debug {
     @Test
     public void test(){
 
-        Lock lock=new ReentrantLock();
-        Runnable r=()->{
-          try{
-              boolean b = lock.tryLock(3, TimeUnit.SECONDS);
-              if(b){
-                  System.out.println(Thread.currentThread().getName()+"获得锁");
-                  Thread.sleep(8888);
-              }
-          } catch (InterruptedException e) {
-              e.printStackTrace();
-          } finally {
-              System.out.println(Thread.currentThread().getName()+"释放锁");
-              lock.unlock();
-          }
-        };
-
-        new Thread(r,"1").start();
-        new Thread(r,"2").start();
-
+        List<Integer> list1=new ArrayList<>(Arrays.asList(1,2));
+        List<Integer> list2=new ArrayList<>(Arrays.asList(1,2));
+        System.out.println(list1.equals(list2));
     }
 
     public List<Integer> solution1(String s, String p){

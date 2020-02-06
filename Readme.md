@@ -252,9 +252,15 @@
 
 733：图像渲染 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FloodFill733.java>
 
+752：打开转盘锁 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OpenLock752.java>
+
+773:滑动谜题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SlidingPuzzle773.java>
+
 785：判断二分图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/isBipartite785.java>
 
 876：链表的中间节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MiddleNode876.java>
+
+1091：二进制矩阵中的最短路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ShortestPathBinaryMatrix1091.java>
 
 ## 分类
 
@@ -529,6 +535,12 @@
 695：岛屿的最大面积 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxAreaOfIsland695.java>
 
 733：图像渲染 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FloodFill733.java>
+
+1091：二进制矩阵中的最短路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ShortestPathBinaryMatrix1091.java>
+
+752：打开转盘锁 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OpenLock752.java>
+
+773:滑动谜题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SlidingPuzzle773.java>
 
 # 经典数据结构和算法
 
