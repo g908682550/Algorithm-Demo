@@ -21,7 +21,7 @@ public class UnionFind6 implements UF{
     }
 
     private int find(int p){
-        if(p!=parent[p]) parent[p]=find(p);
+        if(p!=parent[p]) parent[p]=find(parent[p]);
         return parent[p];
     }
 
