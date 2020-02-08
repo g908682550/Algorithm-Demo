@@ -6,6 +6,10 @@
 
 3：无重复字符的最长子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LengthOfLongestSubstring3.java>
 
+5：最长回文子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LongestPalindrome5.java>
+
+10：正则表达式匹配 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsMatch10.java>
+
 11：盛水最多的容器 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxArea11.java>
 
 15：三数之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ThreeSum15.java>
@@ -180,9 +184,13 @@
 
 222：完全二叉树的节点个数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CountNodes222.java>
 
+225：用队列实现栈 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MyStack225.java>
+
 226：翻转二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InvertTree226.java>
 
 230：二叉搜索树中第K小的元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/KthSmallest230.java>
+
+232：用栈实现队列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MyQueue232.java>
 
 234：回文链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome234.java>
 
@@ -207,6 +215,8 @@
 337：打家劫舍III <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob337.java>
 
 341：扁平化嵌套列表迭代器 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NestedIterator341.java>
+
+343：整数拆分<https://github.com/g908682550/Demo/blob/master/src/leetcode/IntegerBreak343.java>
 
 344：反转字符串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReverseString344.java>
 
@@ -378,6 +388,10 @@
 
 ### 栈和队列
 
+232：用栈实现队列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MyQueue232.java>
+
+225：用队列实现栈 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MyStack225.java>
+
 20：有效的括号 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/IsValid20.java>
 
 150：逆波兰表达式求值 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java/EvalRPN150.java>
@@ -519,6 +533,10 @@
 139：单词拆分 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordBreak139.java>
 
 494：目标和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindTargetSumWays494.java>
+
+343：整数拆分<https://github.com/g908682550/Demo/blob/master/src/leetcode/IntegerBreak343.java>
+
+5：最长回文子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LongestPalindrome5.java>
 
 ### 贪心算法
 
