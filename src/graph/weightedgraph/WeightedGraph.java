@@ -1,18 +1,20 @@
-package graph.build;
+package graph.weightedgraph;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
-//无向无权图
-public class Graph {
+
+public class WeightedGraph {
 
     private int V;
 
     private int E;
 
-    private TreeSet<Integer>[] adj;
+    private TreeMap<Integer,Integer>[] adj;
 
     public int getV() {
         return V;
@@ -25,7 +27,7 @@ public class Graph {
     public boolean hasEdge(int v,int w){
         validateVertex(v);
         validateVertex(w);
-        return adj[v].contains(w);
+        return adj[v].containsKey(w);
     }
 
     /**
@@ -35,7 +37,13 @@ public class Graph {
      */
     public Iterable<Integer> adj(int v){
         validateVertex(v);
-        return adj[v];
+        return adj[v].keySet();
+    }
+
+    public int getWeight(int v,int w){
+        if(hasEdge(v,w))
+            return adj[v].get(w);
+        else throw new IllegalArgumentException("error");
     }
 
     public int degree(int v){
@@ -43,14 +51,14 @@ public class Graph {
         return adj[v].size();
     }
 
-    public Graph(String filename){
+    public WeightedGraph(String filename){
         File file=new File(filename);
         try(Scanner scanner=new Scanner(file)) {
             V=scanner.nextInt();
             if(V<0) throw new IllegalArgumentException("V must be non-negative");
-            adj=new TreeSet[V];
+            adj=new TreeMap[V];
             for(int i=0;i<V;i++)
-                adj[i]=new TreeSet<>();
+                adj[i]=new TreeMap<>();
 
             E=scanner.nextInt();
             if(E<0) throw new IllegalArgumentException("E must be non-negative");
@@ -59,16 +67,36 @@ public class Graph {
                 validateVertex(a);
                 int b=scanner.nextInt();
                 validateVertex(b);
+                int weight=scanner.nextInt();
                 //判断自环边
                 if(a==b) throw new IllegalArgumentException("Self Loop is Detected");
                 //判断平行边
-                if(adj[a].contains(b)) throw new IllegalArgumentException("Parallel Edges are Detected");
-                adj[a].add(b);
-                adj[b].add(a);
+                if(adj[a].containsKey(b)) throw new IllegalArgumentException("Parallel Edges are Detected");
+                adj[a].put(b,weight);
+                adj[b].put(a,weight);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public Object clone(){
+        try{
+            WeightedGraph cloned=(WeightedGraph) super.clone();
+            cloned.adj=new TreeMap[V];
+            for(int v=0;v<V;v++){
+                cloned.adj[v]=new TreeMap<Integer, Integer>();
+                for(Map.Entry<Integer,Integer> entry:adj[v].entrySet()){
+                    cloned.adj[v].put(entry.getKey(),entry.getValue());
+                }
+            }
+            return cloned;
+        }
+        catch (CloneNotSupportedException e){
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public void validateVertex(int v){
@@ -80,14 +108,14 @@ public class Graph {
         sb.append(String.format("V=%d,E=%d\n",V,E));
         for(int i=0;i<V;i++){
             sb.append(String.format("%d: ",i));
-            for(int w:adj[i]) sb.append(String.format("%d ",w));
+            for(Map.Entry<Integer,Integer> w:adj[i].entrySet()) sb.append(String.format("(%d:%d)",w.getKey(),w.getValue()));
             sb.append('\n');
         }
         return sb.toString();
     }
 
     public static void main(String[] args) {
-        Graph graph = new Graph("g.txt");
+        WeightedGraph graph = new WeightedGraph("gg.txt");
         System.out.println(graph);
     }
 
