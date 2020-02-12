@@ -34,9 +34,13 @@
 
 30：串联所有单词的子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindSubstring30.java>
 
+32：最长有效括号 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LongestValidParentheses32.java>
+
 39：组合总和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum39.java>
 
 40：组合总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum240.java>
+
+41：缺失的第一个正数：<https://github.com/g908682550/Demo/blob/master/src/leetcode/FirstMissingPositive41.java>
 
 42：接雨水 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Trap42.java>
 
@@ -246,9 +250,13 @@
 
 438：找到字符串所有字母异位字 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindAnagrams438.java>
 
+442：数组中重复的数据 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindDuplicates442.java>
+
 445：两数相加II <https://github.com/g908682550/Demo/blob/master/src/leetcode/AddTwoNumbers445.java>
 
 447: 回旋镖的数量 <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumberOfBoomeranges447.java>
+
+448：找到所有数组中消失的数字 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindDisappearedNumbers448.java>
 
 450：删除二叉搜索树中的节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/deleteNode.java>
 
@@ -298,6 +306,12 @@
 
 137：只出现一次的数字II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SingleNumber.java>
 
+442：数组中重复的数据 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindDuplicates442.java>
+
+### 排序问题：
+
+41：缺失的第一个正数：<https://github.com/g908682550/Demo/blob/master/src/leetcode/FirstMissingPositive41.java>
+
 ### 滑动窗口
 
 209：长度最小的子数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinSubArrayLen209.java>
@@ -344,13 +358,13 @@
 
 ### 链表问题
 
-82：删除排序链表的重复元素II <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteDuplicates82.java>
+82：删除排序链表的重复元素II <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteDuplicates82.java>//设定哑节点
 
 83：删除排序链表中的重复元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteDuplicates83.java>
 
 2：两数相加 <https://github.com/g908682550/Demo/blob/master/src/leetcode/AddTwoNumbers2.java>
 
-86：分割链表<https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition86.java>
+86：分割链表<https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition86.java>//注意尾部置为null
 
 92：反转链表II <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReverseBetween92.java>
 
@@ -374,7 +388,7 @@
 
 237：删除链表中的节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteNode237.java>
 
-19：删除链表的倒数第N个节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java>
+19：删除链表的倒数第N个节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveNthFromEnd19.java>//快慢指针，慢指针为哑节点
 
 61：旋转链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RotateRight61.java>
 
@@ -419,6 +433,8 @@
 127：单词接龙 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LadderLength127.java>
 
 347：前K个高频元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TopKFrequent347.java>
+
+32：最长有效括号 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LongestValidParentheses32.java>
 
 ### 二叉树
 
@@ -560,6 +576,10 @@
 
 773:滑动谜题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SlidingPuzzle773.java>
 
+# 剑指Offer
+
+3：数组中重复的数字 <>
+
 # 经典数据结构和算法
 
 字符串匹配类：
@@ -576,6 +596,13 @@ KMP算法： <https://github.com/g908682550/Demo/blob/master/src/string_match/KM
 
 基于最大堆的优先队列简易实现：<https://github.com/g908682550/Demo/blob/master/src/queue/PriorityQueue.java>
 
+LRU算法： <>
+
+线段树： <>
+
+字典树： <>
+
+并查集： <>
 
 
 排序类：
