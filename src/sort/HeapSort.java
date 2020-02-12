@@ -12,7 +12,7 @@ public class HeapSort {
      */
     public static void heapSort(int[] nums){
         int n=nums.length;
-        //下沉方式构造堆有序
+        //下沉方式构造堆有序（最大堆）
         for(int i=n/2-1;i>=0;i--){//完全二叉树的第一个非叶子节点下标为n/2-1;左子节点为2k+1,右子节点为2k-1;调整位置为i的非叶子节点，调整完成后该子树有序，从右到左，从下到上，最后到根节点逐步有序
             adjustHeap(nums,i,n);
         }

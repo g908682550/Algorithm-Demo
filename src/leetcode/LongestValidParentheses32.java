@@ -11,6 +11,11 @@ public class LongestValidParentheses32 {
         return res;
     }
 
+    /**
+     * 模拟一个栈的操作
+     * @param s
+     * @return
+     */
     public int helper(String s){
         int len=s.length(),res=0,sum=0;
         for(int i=0;i<len;i++){

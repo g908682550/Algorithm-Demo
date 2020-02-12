@@ -20,14 +20,13 @@ public class ReverseKGroup25 {
 
     public ListNode solution1(ListNode head, int k){
         if(head==null) return head;
-        ListNode temp=head;
         int count=k;//对k进行保存，防止污染
+        ListNode first=head,second=head;//first为局部反转链表的第一个，second为局部反转链表的第二个
         while(count>1) {
-            temp = temp.next;//将temp移动到要反转的k个链表的最后一个位置
+            second = second.next;//将temp移动到要反转的k个链表的最后一个位置
             count--;
-            if (temp == null) return head;//如果不够k个，直接返回，不用反转
+            if (second == null) return head;//如果不够k个，直接返回，不用反转
         }
-        ListNode first=head,second=temp;//first为局部反转链表的第一个，second为局部反转链表的第二个
         ListNode next=second.next;//保存一下下一个要反转链表的开始
         reverse(first,second);//对局部链表进行反转
         first.next=solution1(next,k);//方法返回的是后面已经反转完成的头节点，将其连接即可
