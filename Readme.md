@@ -578,7 +578,13 @@
 
 # 剑指Offer
 
-3：数组中重复的数字 <>
+3：数组中重复的数字 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/FindRepeatNumber03.java>
+
+4：二维数组的查找 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/FindNumberIn2DArray04.java>
+
+7：重建二叉树 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/BuildTree07.java>
+
+11：旋转数组中的最小数字 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/MinArray11.java>
 
 # 经典数据结构和算法
 
