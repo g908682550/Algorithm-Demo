@@ -1,5 +1,8 @@
 package sort;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class HeapSort {
     /**
      * 堆排序
@@ -10,31 +13,26 @@ public class HeapSort {
      * 5.具有n个节点的完全二叉树的深度为log2(n) + 1
      * @param nums
      */
-    public static void heapSort(int[] nums){
+    public static void heapSort(Comparable[] nums){
         int n=nums.length;
         //下沉方式构造堆有序（最大堆）
-        for(int i=n/2-1;i>=0;i--){//完全二叉树的第一个非叶子节点下标为n/2-1;左子节点为2k+1,右子节点为2k-1;调整位置为i的非叶子节点，调整完成后该子树有序，从右到左，从下到上，最后到根节点逐步有序
-            adjustHeap(nums,i,n);
-        }
+        for(int i=n/2-1;i>=0;i--)//完全二叉树的第一个非叶子节点下标为n/2-1;左子节点为2k+1,右子节点为2k-1;调整位置为i的非叶子节点，调整完成后该子树有序，从右到左，从下到上，最后到根节点逐步有序
+            sink(nums,i,n);
+
         while(n>0){
-            swap(nums,0,n-1);//有序堆的第一个元素最大，将其第一个元素交换到最后。
-            adjustHeap(nums,0,--n);//对首元素进行一次下沉操作，构造新的有序堆
+            Collections.swap(Arrays.asList(nums),0,n-1);//有序堆的第一个元素最大，将其第一个元素交换到最后。
+            sink(nums,0,--n);//对首元素进行一次下沉操作，构造新的有序堆
         }
     }
 
-    public static void adjustHeap(int[] arr,int i,int length){
+    public static void sink(Comparable[] arr,int i,int length){
         while(2*i+1<length){//找到它的第一个左子节点
             int j=2*i+1;
-            if(j+1<length&&arr[j+1]>arr[j]) j++;//是否存在右子节点，如果存在且右子节点大于左子节点，则将j指向右子节点
-            if(arr[i]>arr[j]) break;//i元素大于了j元素，则返回,说明有序，不用判断其子树，因为子树已经为最大堆
-            swap(arr,i,j);//如果i比两个子节点都小，将i与子节点最大值交换，交换后继续向下找合适的位置
+            if(j+1<length&&arr[j+1].compareTo(arr[j])>0) j++;//是否存在右子节点，如果存在且右子节点大于左子节点，则将j指向右子节点
+            if(arr[i].compareTo(arr[j])>0) break;//i元素大于了j元素，则返回,说明有序，不用判断其子树，因为子树已经为最大堆
+            Collections.swap(Arrays.asList(arr),i,j);//如果i比两个子节点都小，将i与子节点最大值交换，交换后继续向下找合适的位置
             i=j;
         }
     }
 
-    private static void swap(int[] nums, int l, int r) {
-        int temp=nums[l];
-        nums[l]=nums[r];
-        nums[r]=temp;
-    }
 }

@@ -1,16 +1,27 @@
 package sort;
 
-import java.util.Arrays;
+import java.util.Random;
 
 //各类排序算法实现
 public class Sort {
 
     public static void main(String[] args) {
-        int[] nums={2,3,234,11,54,23,55,0,333,12,32,54,22};
-//        int[] nums={1,2,3,4,5,6,7,0};
-        int[] temp=new int[nums.length];
-        MergeSort.MergeSort2(nums,temp);
-        System.out.println(Arrays.toString(nums));
+        Comparable[] arr= new Comparable[10000000];
+        Random random=new Random();
+        for(int i=0;i<10000000;i++){
+            arr[i]=random.nextInt(10000000);
+        }
+        long currentTimeMillis = System.currentTimeMillis();
+//        InsertSort.insertSort(arr);
+//        SelectSort.selectSort(arr);
+//        ShellSort.shellSort(arr);
+//        PopSort.popSort(arr);
+//        MergeSort.MergeSort2(arr,new Comparable[arr.length]);
+//        QuickSort.quickSort(arr,0,arr.length-1);
+        HeapSort.heapSort(arr);
+        long nextTimeMills=System.currentTimeMillis();
+        System.out.println(nextTimeMills - currentTimeMillis);
+//        System.out.println(Arrays.toString(arr));
     }
 
 }
