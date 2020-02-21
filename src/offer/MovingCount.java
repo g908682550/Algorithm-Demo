@@ -8,7 +8,7 @@ public class MovingCount {
     int R,C,threshold;
 
     /**
-     * floodFill算法
+     * floodFill算法，先将能访问到的点全部标记为true，随后从(0,0)开始遍历
      * @param threshold
      * @param rows
      * @param cols

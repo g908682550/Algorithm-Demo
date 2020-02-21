@@ -10,7 +10,7 @@ public class GetPermutation60 {
 
     @Test
     public void test(){
-        System.out.println(solution2(3, 3));
+        System.out.println(solution3(3, 3));
     }
 
     List<String> list=new ArrayList<>();

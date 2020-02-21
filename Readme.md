@@ -136,11 +136,15 @@
 
 131：分割回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition131.java>
 
+132：分割回文串II <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinCut132.java>
+
 137：只出现一次的数字II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SingleNumber.java>
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
 139：单词拆分 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WordBreak139.java>
+
+142：环形链表II <https://github.com/g908682550/Demo/blob/master/src/leetcode/DetectCycleII142>
 
 143：重排链表 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ReorderList143.java>
 
@@ -400,6 +404,8 @@
 
 138：复制带随机链表的指针 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CopyRandomList138.java>
 
+142：环形链表II <https://github.com/g908682550/Demo/blob/master/src/leetcode/DetectCycleII142>
+
 ### 栈和队列
 
 232：用栈实现队列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MyQueue232.java>
@@ -554,6 +560,8 @@
 
 5：最长回文子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LongestPalindrome5.java>
 
+132：分割回文串II <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinCut132.java>
+
 ### 贪心算法
 
 455：分发饼干 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindContentChildren455.java>
@@ -585,6 +593,8 @@
 7：重建二叉树 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/BuildTree07.java>
 
 11：旋转数组中的最小数字 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/MinArray11.java>
+
+33：二叉搜索树的后序遍历序列 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/VerifyPostorder33.java>
 
 # 经典数据结构和算法
 

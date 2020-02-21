@@ -7,8 +7,8 @@ public class IsMatch10 {
 
     @Test
     public void test(){
-        String s="aa",p="a*";
-        solution(s,p);
+        String s="TRADE_SUCCESS",p="a*";
+        System.out.println(s.equals("TRADE_SUCCESS"));
     }
 
     public boolean solution(String s, String p){
