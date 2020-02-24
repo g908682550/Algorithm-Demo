@@ -596,6 +596,14 @@
 
 33：二叉搜索树的后序遍历序列 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/VerifyPostorder33.java>
 
+41: 数据流中的中位数 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/MedianFinder41.java>
+
+46：把数字翻译成字符串 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/TranslateNum46.java>
+
+59：滑动窗口的最大值 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/maxInWindows59.java>
+
+66：构建乘积数组 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/ConstructArr66.java>
+
 # 经典数据结构和算法
 
 字符串匹配类：
