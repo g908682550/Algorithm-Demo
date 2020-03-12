@@ -11,10 +11,9 @@ public class Debug {
 
     @Test
     public void test(){
-
-        List<Integer> list1=new ArrayList<>(Arrays.asList(1,2));
-        List<Integer> list2=new ArrayList<>(Arrays.asList(1,2));
-        System.out.println(list1.equals(list2));
+        int m=3;
+        int n=2;
+        System.out.println((double)m/n);
     }
 
     public List<Integer> solution1(String s, String p){

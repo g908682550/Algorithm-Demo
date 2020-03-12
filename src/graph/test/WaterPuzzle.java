@@ -1,6 +1,9 @@
-package leetcode;
+package graph.test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * 给一个5L桶和3L桶，求如何获得4L的水

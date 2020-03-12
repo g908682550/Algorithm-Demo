@@ -162,6 +162,8 @@
 
 167：两数之和II-输入有序数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/TwoSum167.java>
 
+169：多数元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MajorityElement169.java>
+
 198：打家劫舍 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rob198.java>
 
 199：二叉树的右视图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RightSideView199.java>
@@ -315,6 +317,8 @@
 ### 排序问题：
 
 41：缺失的第一个正数：<https://github.com/g908682550/Demo/blob/master/src/leetcode/FirstMissingPositive41.java>
+
+169：多数元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MajorityElement169.java>
 
 ### 滑动窗口
 
@@ -540,7 +544,7 @@
 
 122：买卖股票的最佳时机II <https://github.com/g908682550/Demo/blob/master/src/MaxProfit122.java>
 
-122：买卖股票的最佳时机III <https://github.com/g908682550/Demo/blob/master/src/MaxProfit123.java>
+123：买卖股票的最佳时机III <https://github.com/g908682550/Demo/blob/master/src/MaxProfit123.java>
 
 376：摆动序列<https://github.com/g908682550/Demo/blob/master/src/leetcode/WiggleMaxLength376.java>
 
@@ -580,9 +584,13 @@
 
 1091：二进制矩阵中的最短路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ShortestPathBinaryMatrix1091.java>
 
+1034：边框着色 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ColorBorder1034.java>
+
 752：打开转盘锁 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OpenLock752.java>
 
 773:滑动谜题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SlidingPuzzle773.java>
+
+994：腐烂的橘子 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OrangesRotting994.java>
 
 # 剑指Offer
 
@@ -603,6 +611,8 @@
 59：滑动窗口的最大值 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/maxInWindows59.java>
 
 66：构建乘积数组 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/ConstructArr66.java>
+
+
 
 # 经典数据结构和算法
 

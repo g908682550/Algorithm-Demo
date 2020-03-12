@@ -24,7 +24,7 @@ public class RedBlackTree {
 
     public void put(String key,Integer val){
         //查找key，找到则更新其值，否则为它创建一个结点
-        root=put(root,key,val);
+        root=putVal(root,key,val);
         //根结点始终为黑色，即作为2结点的右结点或者是3结点拆分后的父结点
         root.color=BLACK;
     }
@@ -33,18 +33,17 @@ public class RedBlackTree {
     //1、如果右子节点是红色的而左子结点是黑色的，进行左旋转(向2节点的右边插入节点时及向3节点的中间插入节点时）
     //2、如果左子节点是红色的且它的左子结点也是红色的，进行右旋转(向3节点最左边插入时)
     //3、左右子节点均为红色，进行颜色转化（3节点拆分2节点的过程）
-    private Node put(Node h,String key,Integer val){
+    private Node putVal(Node h,String key,Integer val){
         if(h==null) return new Node(key,val,1,RED);
         int cmp=val.compareTo(h.val);
-        if(cmp<0) h.left=put(h.left,key,val);
-        else if(cmp>0) h.right=put(h.right,key,val);
+        if(cmp<0) h.left=putVal(h.left,key,val);
+        else if(cmp>0) h.right=putVal(h.right,key,val);
         else h.val=val;
 
         if(isRed(h.right)&&!isRed(h.left)) h=rotateLeft(h);
         if(isRed(h.left)&&isRed(h.left.left)) h=rotateRight(h);
         if(isRed(h.right)&&isRed(h.left)) flipColors(h);
 
-//        h.N=size(h.left)+size(h.right)+1;
         return h;
     }
 
@@ -59,8 +58,6 @@ public class RedBlackTree {
         x.left=h;
         x.color=h.color;
         h.color=RED;
-//        x.N=h.N;
-//        h.N=1+size(h.left)+size(h.right);
         return x;
     }
     //右旋操作，旋转后的子节点均为红色，父节点继承之前父节点的颜色并返回
@@ -70,8 +67,6 @@ public class RedBlackTree {
         x.right=h;
         x.color=h.color;
         h.color=RED;
-//        x.N=h.N;
-//        h.N=1+size(h.left)+size(h.right);
         return x;
     }
     //变色操作，将父节点变为红色，子节点变为黑色
@@ -81,8 +76,6 @@ public class RedBlackTree {
         h.left.color= BLACK;
         h.right.color=BLACK;
     }
-//    public int size(){ return size(root);}
-//    private int size(Node x){if(x==null) return 0; else return x.N;}
 
 }
 
@@ -91,13 +84,10 @@ class Node{
     Integer val;
     //左子节点，右子节点
     Node left,right;
-////    //该树的子树中的结点个数
-//    Integer N;
     boolean color;
     public Node(String key,Integer val,int N,boolean color){
         this.key=key;
         this.val=val;
-//        this.N=N;
         this.color=color;
     }
 }

@@ -47,7 +47,7 @@ public class LRUCache {
             node.value=value;
             removeAndInsert(node);
         }else{
-            LRUNode curr=new LRUNode(key,value);
+            node=new LRUNode(key,value);
             //容量已满，需要删除元素
             if(map.size()==capacity){
                 map.remove(tail.key);
@@ -60,10 +60,10 @@ public class LRUCache {
                     this.put(key,value);
                 }
             }
-            map.put(key,curr);
-            curr.next=head;
-            head.pre=curr;
-            head=curr;
+            map.put(key,node);
+            node.next=head;
+            head.pre=node;
+            head=node;
         }
     }
 
