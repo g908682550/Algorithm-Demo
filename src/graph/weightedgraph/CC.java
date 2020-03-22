@@ -23,7 +23,6 @@ public class CC {
                 dfs(v,cccount);
                 cccount++;
             }
-
     }
 
     public List<Integer>[] components(){

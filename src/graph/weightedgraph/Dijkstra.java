@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 //时间复杂度(O(V*V))，优化后时间复杂度(O(ElogE))
+//有权图的单源最短路径算法，该算法不能处理负权边
 public class Dijkstra {
 
     private WeightedGraph G;

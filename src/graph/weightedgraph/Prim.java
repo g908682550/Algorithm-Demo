@@ -36,7 +36,6 @@ public class Prim {
             int newv=visited[minEdge.getV()]?minEdge.getW():minEdge.getV();
             visited[newv]=true;
             for(int w:G.adj(newv)) if(!visited[w]) queue.offer(new WeightedEdge(newv,w,G.getWeight(newv,w)));
-
         }
 
 //        for(int i=0;i<G.getV()-1;i++){

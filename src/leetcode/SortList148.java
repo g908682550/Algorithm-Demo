@@ -45,7 +45,7 @@ public class SortList148 {
         }
         return result.next;
     }
-    public ListNode subSort(ListNode pre,Integer num){
+    private ListNode subSort(ListNode pre,Integer num){
         int slowNum=num,quickNum=num;
         ListNode slow=pre.next,quick=pre.next;
         for(int i=0;i<num;i++){
@@ -64,20 +64,20 @@ public class SortList148 {
             }
             pre=pre.next;//将pre向后移动一位
         }
-        if(slowNum>0){//说明快指针已经遍历完达到下一次子数组的第一个或者快指针为null时，还有慢指针没有遍历完成
-            pre.next=slow;
-            while(slowNum>0){//对慢指针继续遍历
-                pre=pre.next;
-                slowNum--;
-            }
-            pre.next=quick;//将子数组的下一个节点与当前pre进行连接
-        }
         if(quickNum>0&&quick!=null){//说明慢指针遍历完成，快指针还有剩余且不为null
             pre.next=quick;
             while(quickNum>0&&pre!=null){
                 pre=pre.next;
                 quickNum--;
             }
+        }
+        if(slowNum>0){//说明快指针已经遍历完达到下一次子数组的第一个或者快指针为null时，还有慢指针没有遍历完成
+            pre.next=slow;
+            while(slowNum>0){//对慢指针继续遍历
+                pre=pre.next;
+                slowNum--;
+            }
+            pre.next=quick;//将下一个子数组的节点与当前pre进行连接
         }
         return pre;//返回排序后子数组的最后一个元素
     }
