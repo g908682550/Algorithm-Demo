@@ -624,6 +624,8 @@
 
 46：把数字翻译成字符串 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/TranslateNum46.java>
 
+52：翻转单词顺序 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/ReverseWords58.java>
+
 59：滑动窗口的最大值 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/maxInWindows59.java>
 
 66：构建乘积数组 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/ConstructArr66.java>
