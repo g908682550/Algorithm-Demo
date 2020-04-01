@@ -296,6 +296,10 @@
 
 3/29 1162：地图分析 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxDistance1162.java>
 
+3/30 offer 62:圆圈中最后剩下的数字 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/LastRemaining62.java>
+
+4/1 1111：有效括号的嵌套深度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxDepthAfterSplit1111.java>
+
 ## 分类
 
 ### 数组问题（包含双指针问题）：
@@ -634,7 +638,15 @@
 
 KMP算法： <https://github.com/g908682550/Demo/blob/master/src/string_match/KMP.java>
 
+Kruskal最小生成树算法：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/graph/weightedgraph/Kruskal.java>
 
+Prim最小生成树算法：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/graph/weightedgraph/Prim.java>
+
+Dijkstra最短路径算法：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/graph/weightedgraph/Dijkstra.java>
+
+BellmanFord最短路径算法：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/graph/weightedgraph/BellmanFord.java>
+
+Floyed最短路径算法：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/graph/weightedgraph/Floyed.java>
 
 数据结构类：
 
@@ -642,13 +654,13 @@ KMP算法： <https://github.com/g908682550/Demo/blob/master/src/string_match/KM
 
 基于最大堆的优先队列简易实现：<https://github.com/g908682550/Demo/blob/master/src/queue/PriorityQueue.java>
 
-LRU算法： <>
+LRU算法：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/lru/LRUCache.java>
 
-线段树： <>
+线段树：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/tree/SegmentTree.java>
 
-字典树： <>
+字典树：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/tree/Trie.java>
 
-并查集： <>
+并查集：<https://github.com/g908682550/Algorithm-Demo/blob/master/src/unionfind/UnionFind6.java>
 
 
 排序类：
