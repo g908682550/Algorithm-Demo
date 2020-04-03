@@ -301,6 +301,8 @@
 4/1 1111：有效括号的嵌套深度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxDepthAfterSplit1111.java>
 
 4/2 289：生命游戏 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GameOfLife.java>
+
+4/3 8：字符串转整数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MyAtoi8.java>
 ## 分类
 
 ### 数组问题（包含双指针问题）：
