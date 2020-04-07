@@ -46,6 +46,8 @@
 
 47：全排列II <https://github.com/g908682550/Demo/blob/master/src/leetcode/PermuteUnique47.java>
 
+48：旋转矩阵 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rotate48.java>
+
 49：字母异位词分组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GroupAnagrams49.java>
 
 51：N皇后 <https://github.com/g908682550/Demo/blob/master/src/leetcode/solveNQueens.java>
@@ -137,6 +139,8 @@
 131：分割回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition131.java>
 
 132：分割回文串II <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinCut132.java>
+
+133：克隆图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CloneGraph133.java>
 
 137：只出现一次的数字II <https://github.com/g908682550/Demo/blob/master/src/leetcode/SingleNumber.java>
 
@@ -304,7 +308,9 @@
 
 4/3 8：字符串转整数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MyAtoi8.java>
 
-4/5 460：LFU缓存 <>
+4/5 460：LFU缓存 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/lfu/LFUCache1.java>
+
+4/7 48：旋转矩阵 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rotate48.java>>
 ## 分类
 
 ### 数组问题（包含双指针问题）：
@@ -612,6 +618,8 @@
 773:滑动谜题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SlidingPuzzle773.java>
 
 994：腐烂的橘子 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OrangesRotting994.java>
+
+133：克隆图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CloneGraph133.java>
 
 # 剑指Offer
 
