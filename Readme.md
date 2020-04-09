@@ -36,6 +36,8 @@
 
 32：最长有效括号 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LongestValidParentheses32.java>
 
+37：解数独 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SolveSudoku37.java>
+
 39：组合总和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum39.java>
 
 40：组合总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/CombinationSum240.java>
