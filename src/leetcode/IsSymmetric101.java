@@ -1,9 +1,26 @@
 package leetcode;
 
+import org.junit.Test;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class IsSymmetric101 {
+
+    @Test
+    public void test(){
+        TreeNode root=new TreeNode(1);
+        TreeNode node1=new TreeNode(2);
+        TreeNode node2=new TreeNode(2);
+        TreeNode node3=new TreeNode(3);
+        TreeNode node4=new TreeNode(3);
+        root.left=node1;
+        root.left=node2;
+        node1.left=null;
+        node1.right=node3;
+        node2.left=null;
+        node2.right=node4;
+    }
 
 
     /**

@@ -292,6 +292,8 @@
 
 876：链表的中间节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MiddleNode876.java>
 
+887：鸡蛋掉落 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SuperEggDrop887.java>
+
 1091：二进制矩阵中的最短路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ShortestPathBinaryMatrix1091.java>
 
 ###LeetCode每日一题
