@@ -39,7 +39,7 @@ public class Kruskal {
         for(WeightedEdge edge:edges){
             int v=edge.getV();
             int w=edge.getW();
-            //如果两条边不属于一个集合，才进行判断
+            //如果两条边不属于一个集合，才进行添加
             if(!uf.isConnected(v,w)){
                 mst.add(edge);
                 uf.unionElements(v,w);
