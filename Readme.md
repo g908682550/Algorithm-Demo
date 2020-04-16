@@ -313,6 +313,20 @@
 4/5 460：LFU缓存 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/lfu/LFUCache1.java>
 
 4/7 48：旋转矩阵 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Rotate48.java>>
+
+4/8 offer 13：机器人运动范围 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/MovingCount13.java>
+
+4/9 22：括号生成 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GenerateParenthesis22>
+
+4/11 887:鸡蛋掉落 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SuperEggDrop887.java>
+
+4/12 16.03 交点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection1603>
+
+4/13 355：设计推特 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Twitter355.java>
+
+4/15 542：01矩阵 <https://github.com/g908682550/Demo/blob/master/src/leetcode/UpdateMatrix542.java>
+
+4/16 56：合并区件 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Merge56.java>
 ## 分类
 
 ### 数组问题（包含双指针问题）：
