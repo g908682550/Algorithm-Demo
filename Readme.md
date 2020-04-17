@@ -327,6 +327,8 @@
 4/15 542：01矩阵 <https://github.com/g908682550/Demo/blob/master/src/leetcode/UpdateMatrix542.java>
 
 4/16 56：合并区件 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Merge56.java>
+
+4/17 55：跳跃游戏 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CanJump55.java>
 ## 分类
 
 ### 数组问题（包含双指针问题）：
@@ -659,7 +661,7 @@
 
 66：构建乘积数组 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/ConstructArr66.java>
 
-
+37：序列化二叉树 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/Codec37.java>
 
 # 经典数据结构和算法
 
