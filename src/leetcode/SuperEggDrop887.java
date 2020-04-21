@@ -53,5 +53,4 @@ public class SuperEggDrop887 {
         }
         return m;
     }
-
 }
