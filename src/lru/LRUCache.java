@@ -3,19 +3,19 @@ package lru;
 import java.util.HashMap;
 import java.util.Map;
 
-class LRUNode{
-    String key;
-    Object value;
-    LRUNode next;
-    LRUNode pre;
-
-    public LRUNode(String key, Object value) {
-        this.key = key;
-        this.value = value;
-    }
-}
-
 public class LRUCache {
+
+    private class LRUNode{
+        String key;
+        Object value;
+        LRUNode next;
+        LRUNode pre;
+
+        LRUNode(String key, Object value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
 
     Map<String,LRUNode> map=new HashMap<>();
     LRUNode head;
@@ -80,18 +80,6 @@ public class LRUCache {
         node.pre=null;
         head.pre=node;
         head=node;
-    }
-
-    public static void main(String[] args) {
-        LRUCache lruCache=new LRUCache(1);
-        lruCache.put("1",1);
-        System.out.println(lruCache.get("1"));
-        lruCache.put("3",3);
-        System.out.println(lruCache.get("2"));
-        lruCache.put("4",4);
-        System.out.println(lruCache.get("1"));
-        System.out.println(lruCache.get("3"));
-        System.out.println(lruCache.get("4"));
     }
 
 }

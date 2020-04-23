@@ -333,6 +333,10 @@
 4/19 466：统计重复个数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/GetMaxRepetitions466.java>
 
 4/21：1248 统计Γ优美子数组┐ <https://github.com/g908682550/Demo/blob/master/src/leetcode/NumberOfSubarrays1248.java>
+
+4/23：518：零钱兑换II <https://github.com/g908682550/Demo/blob/master/src/leetcode/Change518.java>
+
+4/24：offer 51：数组中的逆序对 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/ReversePairs51.java>
 ## 分类
 
 ### 数组问题（包含双指针问题）：
