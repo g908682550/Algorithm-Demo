@@ -13,17 +13,17 @@ public class LargestRectangleArea84 {
     }
 
     public int solution(int[] heights){
-        Deque<Integer> deque=new LinkedList<>();
+        List<Integer> list=new ArrayList<>();
+        for(int num:heights) list.add(num);
+        list.add(0);
+        Stack<Integer> stack=new Stack<>();
         int res=0;
-        for(int i=0;i<heights.length;i++){
-            while(deque.size()!=0&&deque.peekLast()>heights[i]) deque.pollLast();
-            deque.add(heights[i]);
-            res=Math.max(res,deque.peek()*deque.size());
-        }
-        for(int i=heights.length-1;i>=0;i--){
-            while(deque.size()!=0&&deque.peekLast()>heights[i]) deque.pollLast();
-            deque.add(heights[i]);
-            res=Math.max(res,deque.peek()*deque.size());
+        for(int i=0;i<list.size();i++){
+            while(!stack.isEmpty()&&heights[stack.peek()]>list.get(i)){
+                int width=heights[stack.pop()];
+                res=Math.max(res,width*(stack.isEmpty()==true?i:i-stack.peek()-1));
+            }
+            stack.push(i);
         }
         return res;
     }
