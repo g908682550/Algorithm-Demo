@@ -86,6 +86,8 @@
 
 83：删除排序链表中的重复元素 <https://github.com/g908682550/Demo/blob/master/src/leetcode/DeleteDuplicates83.java>
 
+84：柱状图中最大的矩形 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LargestRectangleArea84.java>
+
 86：分割链表<https://github.com/g908682550/Demo/blob/master/src/leetcode/Partition86.java>
 
 88：合并两个有序数组 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Merge88.java>
@@ -289,6 +291,8 @@
 773:滑动谜题 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SlidingPuzzle773.java>
 
 785：判断二分图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/isBipartite785.java>
+
+873：最长的斐波那契子序列的长度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LenLongestFibSubseq.java>
 
 876：链表的中间节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MiddleNode876.java>
 
@@ -670,6 +674,8 @@
 66：构建乘积数组 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/ConstructArr66.java>
 
 37：序列化二叉树 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/Codec37.java>
+
+60: n个骰子的点数 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/TwoSum60.java>
 
 # 经典数据结构和算法
 
