@@ -326,7 +326,7 @@
 
 4/12 16.03 交点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Intersection1603>
 
-4/13 355：设计推特 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Twitter355.java>
+4/13 355：设计推特 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Twgitter355.java>
 
 4/15 542：01矩阵 <https://github.com/g908682550/Demo/blob/master/src/leetcode/UpdateMatrix542.java>
 
@@ -342,7 +342,15 @@
 
 4/24：offer 51：数组中的逆序对 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/ReversePairs51.java>
 
+5/11：50：快速幂 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MyPow50.java>
+
 5/17 210：课程表II <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindOrder210.java>
+
+5/19 680：验证回文字符串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/validPalindrome680.java>
+
+5/20 1371:每个元音包含偶数次的最长子字符串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindTheLongestSubstring1371.java>
+
+
 ## 分类
 
 ### 数组问题（包含双指针问题）：
