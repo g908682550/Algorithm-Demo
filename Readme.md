@@ -350,6 +350,15 @@
 
 5/20 1371:每个元音包含偶数次的最长子字符串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindTheLongestSubstring1371.java>
 
+6/1 1431：拥有最多糖果的孩子 <https://github.com/g908682550/Demo/blob/master/src/leetcode/kidsWithCandies.java>
+
+6/3 837：新21点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/New21Game837.java>
+
+6/4 238：除自身外数组的乘积 <https://github.com/g908682550/Demo/blob/master/src/leetcode/productExceptSelf.java>
+
+6/5 54：螺旋矩阵 <https://github.com/g908682550/Demo/blob/master/src/leetcode/SpiralOrder54.java>
+
+6/6 127：最长连续序列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LadderLength127.java>
 
 ## 分类
 
