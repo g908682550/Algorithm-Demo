@@ -360,6 +360,8 @@
 
 6/6 127：最长连续序列 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LadderLength127.java>
 
+6/8 990：等式方程的可满足性 <https://github.com/g908682550/Demo/blob/master/src/leetcode/EquationsPossible990.java>
+
 ## 分类
 
 ### 数组问题（包含双指针问题）：
