@@ -6,6 +6,8 @@
 
 3：无重复字符的最长子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LengthOfLongestSubstring3.java>
 
+4：寻找两个正序数组的中位数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindMedianSortedArrays4.java>
+
 5：最长回文子串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LongestPalindrome5.java>
 
 10：正则表达式匹配 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsMatch10.java>
@@ -123,6 +125,8 @@
 112：路径总和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/HasPathSum112.java>
 
 113：路径总和II <https://github.com/g908682550/Demo/blob/master/src/leetcode/pathSum.java>
+
+118：杨辉三角 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Generate118.java>
 
 120：三角形最小路径和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MinimumTotal120.java>
 
@@ -362,6 +366,12 @@
 
 6/8 990：等式方程的可满足性 <https://github.com/g908682550/Demo/blob/master/src/leetcode/EquationsPossible990.java>
 
+6/9 offer 46：把数字翻译成字符串 <https://github.com/g908682550/Algorithm-Demo/blob/master/src/offer/TranslateNum46.java>
+
+6/10 9：回文数 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome9.java>
+
+6/11 739：每日温度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/DailyTemperatures739.java>
+
 ## 分类
 
 ### 数组问题（包含双指针问题）：
@@ -528,6 +538,8 @@
 
 111：二叉树的最小深度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/minDepth111.java>
 
+124：二叉树的最大路径和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxPathSum124.java>
+
 226：翻转二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/InvertTree226.java>
 
 100：相同的树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsSameTree100.java>
@@ -671,6 +683,8 @@
 994：腐烂的橘子 <https://github.com/g908682550/Demo/blob/master/src/leetcode/OrangesRotting994.java>
 
 133：克隆图 <https://github.com/g908682550/Demo/blob/master/src/leetcode/CloneGraph133.java>
+
+1311：获取你好友已观看的视频 <https://github.com/g908682550/Demo/blob/master/src/leetcode/WatchedVideosByFriends1311.java>
 
 # 剑指Offer
 

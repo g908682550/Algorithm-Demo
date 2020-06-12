@@ -8,7 +8,7 @@ public class EquationsPossible990 {
     @Test
     public void test(){
         String[] ss={"a==b","b!=a"};
-        solution(ss);
+        System.out.println(Integer.parseInt("02"));
     }
 
     /**
