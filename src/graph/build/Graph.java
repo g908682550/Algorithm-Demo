@@ -14,6 +14,8 @@ public class Graph {
 
     private TreeSet<Integer>[] adj;
 
+    private boolean directed;
+
     public int getV() {
         return V;
     }
@@ -44,6 +46,11 @@ public class Graph {
     }
 
     public Graph(String filename){
+        this(filename,false);
+    }
+
+    public Graph(String filename,boolean directed){
+        this.directed=directed;
         File file=new File(filename);
         try(Scanner scanner=new Scanner(file)) {
             V=scanner.nextInt();
@@ -64,7 +71,7 @@ public class Graph {
                 //判断平行边
                 if(adj[a].contains(b)) throw new IllegalArgumentException("Parallel Edges are Detected");
                 adj[a].add(b);
-                adj[b].add(a);
+                if(!directed) adj[b].add(a);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -74,6 +81,8 @@ public class Graph {
     public void validateVertex(int v){
         if(v<0||v>=V) throw new IllegalArgumentException("vertex"+v+"is invalid");
     }
+
+    public boolean isDirected(){return directed;}
 
     public String toString(){
         StringBuilder sb=new StringBuilder();
