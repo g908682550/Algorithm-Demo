@@ -286,6 +286,8 @@
 
 494：目标和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindTargetSumWays494.java>
 
+645：错误的集合 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindErrorNums645.java>
+
 695：岛屿的最大面积 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxAreaOfIsland695.java>
 
 733：图像渲染 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FloodFill733.java>
@@ -372,6 +374,23 @@
 
 6/11 739：每日温度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/DailyTemperatures739.java>
 
+6/14 1300：转变数组后最接近目标值的数组和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/FindBestValue1300.java>
+
+6/15 14：最长公共前缀 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LongestCommonPrefix14.java>
+
+6/16 297：二叉树的序列化和反序列化 <https://github.com/g908682550/Demo/blob/master/src/leetcode/Codec297.java>
+
+6/17 1014：最佳观光组合 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MaxScoreSightseeingPair1014.java>
+
+6/18 1028：从先序遍历还原二叉树 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RecoverFromPreorder1028.java>
+
+6/19 125：验证回文串 <https://github.com/g908682550/Demo/blob/master/src/leetcode/IsPalindrome125.java>
+
+6/22 16_18：模式匹配 <https://github.com/g908682550/Demo/blob/master/src/leetcode/PatternMatching16_18.java>
+
+6/23 67：二进制求和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/AddBinary67.java> 
+
+6/24 16：最接近三数之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ThreeSumClosest16.java>
 ## 分类
 
 ### 数组问题（包含双指针问题）：
