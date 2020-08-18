@@ -1,6 +1,13 @@
 package leetcode;
 
+import org.junit.Test;
+
 public class FirstMissingPositive41 {
+
+    @Test
+    public void test(){
+        int[] nums={3,4,-1,1};
+    }
 
     /**
      * 分别将对应元素放到其对应下标处，最后再对首元素做一个判断

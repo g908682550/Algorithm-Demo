@@ -32,13 +32,13 @@ public class MaxProfit121 {
     public int solution2(int[] prices){
         int n=prices.length;
         if(n==0) return 0;
-        int dp_0_0=0;
-        int dp_0_1=-prices[0];
+        int dp_0=0;
+        int dp_1=-prices[0];
         for(int i=1;i<n;i++){
-            dp_0_0=Math.max(dp_0_0,dp_0_1+prices[i]);
-            dp_0_1=Math.max(dp_0_1,-prices[i]);
+            dp_0=Math.max(dp_0,dp_1+prices[i]);
+            dp_1=Math.max(dp_1,-prices[i]);
         }
-        return dp_0_0;
+        return dp_0;
     }
 
 

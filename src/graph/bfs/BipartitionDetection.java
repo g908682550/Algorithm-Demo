@@ -35,7 +35,8 @@ public class BipartitionDetection {
         colors[s]=1;
         while(!queue.isEmpty()){
             int v=queue.poll();
-            for(int w:G.adj(v)) if(!visited[w]) {
+            for(int w:G.adj(v))
+                if(!visited[w]) {
                 queue.offer(w);
                 visited[w]=true;
                 colors[w]=1-colors[v];
