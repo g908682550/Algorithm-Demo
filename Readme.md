@@ -300,6 +300,8 @@
 
 873：最长的斐波那契子序列的长度 <https://github.com/g908682550/Demo/blob/master/src/leetcode/LenLongestFibSubseq.java>
 
+874：模拟行走机器人 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RobotSim874.java>
+
 876：链表的中间节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/MiddleNode876.java>
 
 1091：二进制矩阵中的最短路径 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ShortestPathBinaryMatrix1091.java>
@@ -393,6 +395,8 @@
 6/24 16：最接近三数之和 <https://github.com/g908682550/Demo/blob/master/src/leetcode/ThreeSumClosest16.java>
 
 6/25 0201：移出重复节点 <https://github.com/g908682550/Demo/blob/master/src/leetcode/RemoveDuplicateNodes0201.java>
+
+8/20 529：扫雷游戏 <https://github.com/g908682550/Demo/blob/master/src/leetcode/UpdateBoard529.java>
 ## 分类
 
 ### 数组问题（包含双指针问题）：
